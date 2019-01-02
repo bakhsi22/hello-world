@@ -1,0 +1,190 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: monospace;
+}
+.row
+{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li.active a
+{
+    border: 1px green;
+    
+}
+
+.main-nav li a:hover
+{
+    border-bottom: 3px solid green;
+}
+
+.mainnav li a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.hero
+{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 0px;
+    
+}
+
+
+h1
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 275px;
+    
+}
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(pic1.jpg);
+    height: 100vh;
+     background-repeat: no-repeat;
+     background-size: 100% 70%;
+    background-position: top;
+}
+.button
+{
+    margin-top: 30px;
+    margin-left: 440px;
+}
+
+.btn
+{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.btn-one
+{
+    background-color: darkorange;
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-two
+{
+    font-family: "Roboto", sans-serif;
+}
+
+
+.btn-two:hover
+{
+    background-color: darkorange;
+    transition: all 0.5s ease-in;
+    
+        
+}
+
+.logo img
+{
+    width: 250px;
+    height: auto;
+}
+
+.wrap
+{
+width: 50%;
+margine: right;
+text-align: right;
+}
+.icon{
+width: 45px;
+  height: 5px;
+
+  background-color: white;
+  margin: 6px 0;
+}
+
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: white;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+
+
+  
+
+
+
+
+
+
+
+
